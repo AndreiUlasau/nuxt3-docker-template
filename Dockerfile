@@ -1,5 +1,4 @@
 FROM node:17-alpine
-MAINTAINER name GG wp
 
 RUN mkdir -p /usr/src/nuxt-app
 WORKDIR /usr/src/nuxt-app
