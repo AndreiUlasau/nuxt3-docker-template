@@ -1,5 +1,6 @@
 FROM node:17-alpine
-MAINTAINER name GG wp
+MAINTAINER GGGG
+COPY CatEncyclopedia/src App/
 
 RUN mkdir -p /usr/src/nuxt-app
 WORKDIR /usr/src/nuxt-app
